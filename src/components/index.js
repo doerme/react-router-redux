@@ -1,0 +1,5 @@
+export App from './Main'
+export About from './About'
+export Repos from './Repos'
+export Repo from './Repo'
+export Home from './Home'
