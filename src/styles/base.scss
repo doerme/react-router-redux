@@ -1,0 +1,66 @@
+/*
+ * 基础样式
+ */
+
+@import "normalize";
+@import "reset";
+
+*,
+*:before,
+*:after {
+	font-family: PingFang sc, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html,body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	-webkit-overflow-scrolling: touch;
+}
+
+button, input {
+	appearance: none;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+// 5s -
+// @media only screen and (max-device-width: 374px){
+//     html{
+//         font-size: 40px;
+//     }
+// }
+
+// 6 6s
+// @media only screen and (min-device-width: 375px){
+//     html{
+//         font-size: 50px;
+//     }
+// }
+
+#local-debug-btn{
+	position: absolute;
+	top: 165px;
+	right: 0px;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.1);
+	border-radius: 5px;
+	z-index: 99999999999;
+	overflow: hidden;
+}
+
+img{ background:#ededed;}
+
+
