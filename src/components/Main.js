@@ -11,7 +11,7 @@ class AppComponent extends React.Component {
     return (
         <div>
 	        <h1>React Router Tutorial</h1>
-	        <ul role="nav">
+	        <ul role="nav" className = "nav">
 	            <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
 	            <li><NavLink to="/about">About</NavLink></li>
 	            <li><NavLink to="/repos">Repos</NavLink></li>

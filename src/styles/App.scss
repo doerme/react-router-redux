@@ -1,7 +1,13 @@
 /* Base Application Styles */
 body {
-  background: #FFF;
+    background: linear-gradient(to bottom, #DDD, #FFF);
 }
 .active {
-  color: green;
+	color: green;
+}
+
+.nav{
+	display: flex;
+	transform: rotate(2deg);
+	border-radius: 50%;
 }
